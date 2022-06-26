@@ -43,8 +43,20 @@ src/components/TodoInput/index.vue
 src/components/TodoList/index.vue
                        /Item.vue
 
+src/typings/index       # 类型定义
+src/hooks/index         # 集中管理公共方法/解决方案，调用vuex的方法
+
+
+# Vuex
+src/store/actions       # 定义actions的commit()
+src/store/index         # 定义整个vuex的store出口
+src/store/mutations     # 定义改变state的方法
+src/store/actionTypes   # 定义派发action的类型 使用字符串
+src/store/state         # 定义state类型
 ```
 
 ### about Vue3
 
 如果根目录 App.vue 是使用 vue3 的推导式 则其所有子组件都要添加`lang="ts"` 以及引入 `import { defineComponent } from 'vue';`
+
+
