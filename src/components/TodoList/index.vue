@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import TodoItem from "./Item";
+import TodoItem from "./TodoItem.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
